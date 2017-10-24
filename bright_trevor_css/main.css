@@ -1,0 +1,95 @@
+*{margin:0;padding:0;}
+
+.content h1{
+	text-align:center;
+	text-decoration:underline;
+}
+.background{
+	left:0px;
+	z-index:-1;
+	position:fixed;
+	margin-left:0;
+	margin-right:auto;
+}
+.container {margin:0 auto;
+width:960px;
+background:black;
+
+}
+.container img {margin:0 auto;
+width:300px;
+background:black;
+float:right;
+}
+.SFPicture  img {
+	width:940px; 
+    height: auto;
+}
+
+.banner{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:25px;
+	background:black;
+}
+.banner h1 {
+	margin-left:50px;
+	font-size:70px;
+	font-family:"Courier New";
+}
+.banner a img {
+	float:left;
+}
+
+.top_nav, .footer{
+	background:#ff5c33 ;
+	font-size:30px;
+	clear:both;
+}
+
+ul {text-align:center;
+padding:10px;}
+
+li {display:inline;
+margin:0 15px;}
+.content ul li{
+	color:white;
+	display:block;
+	text-align:left;
+}
+
+
+.cont_left, .cont_middle, .cont_right {
+	float:left;
+	width:300px;
+	height:auto;
+	padding:10px;
+	background:black opacity:80%;
+	font-size:20px;
+	text-align:justify;
+}
+.cont_middle a img {
+	width:175px;
+	height:auto;
+}
+
+h1, h2, h3, p {
+	padding:5px;
+	color:#f6f7f2;}
+
+img{float:left;
+padding-right:10px;
+padding-bottom:5px;}
+
+a:link{color:#1f211b;
+text-decoration:none;}
+
+a:visited{color:#1f211b;
+text-decoration:none;}
+
+a:hover{color:#1f211b;
+text-decoration:underline;}
+
+a:active{color:#1f211b;
+text-decoration:none;}
